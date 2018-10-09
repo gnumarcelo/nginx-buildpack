@@ -5,8 +5,8 @@
 # otherwise it defaults to the ones marked here.
 
 
-NGINX_VERSION=${NGINX_VERSION-1.13.0}
-PCRE_VERSION=${PCRE_VERSION-8.40}
+NGINX_VERSION=${NGINX_VERSION-1.13.8}
+PCRE_VERSION=${PCRE_VERSION-8.41}
 HEADERS_MORE_VERSION=${HEADERS_MORE_VERSION-0.32}
 
 compile_log="$1/nginx_buildpack_compile_log.txt"
